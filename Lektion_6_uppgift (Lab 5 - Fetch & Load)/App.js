@@ -36,11 +36,9 @@ export default function App() {
           <Text>{item.id + ' ' + item.title + ' ' + item.releaseYear}</Text>
           <Text>---------------------------------------</Text>
         </View>
-        
-      
         )}
       />}
-      
+
       <StatusBar style="auto" />
     </View>
   );
